@@ -1,6 +1,5 @@
-
-        Do-Van-Vinh-
-        Have a good day!
+Do-Van-Vinh-
+Have a good day!
 
 Password Generator
 
@@ -158,4 +157,4 @@ WATERFALL MODEL: 이 모델은 1970년대 Winston W. Royce에 의해 개발되�
 
 배포:
 
-배포는 소프트웨어를 출시하고 사용자에게 제공하는
+배포는 소프트웨어를 출시하고 사용자에게 제공하는 단계입니다. 이 코드에서는 생성된 비밀번호를 반환하여 사용할 준비가 되었음을 나타냅니다.
