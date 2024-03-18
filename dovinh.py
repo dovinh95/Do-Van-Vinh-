@@ -8,11 +8,13 @@ class TaoMatKhau:
         tao_matkhau.characters = ''
         tao_matkhau.matkhau = ''
     def thuthapyeucau(tao_matkhau, use_upper, use_lower, use_digits, use_special):
-               # Generate character set based on user preferences
-			   """use_upper: A boolean variable (True or False) indicating whether the password should contain uppercase characters or not.
+            # Generate character set based on user preferences
+        """
+        use_upper: A boolean variable (True or False) indicating whether the password should contain uppercase characters or not.
 use_lower: A boolean variable indicating whether the password should contain lowercase characters or not.
 use_digits: A boolean variable indicating whether the password should contain digits or not.
-use_special: A boolean variable indicating whether the password should contain special characters or not."""
+use_special: A boolean variable indicating whether the password should contain special characters or not.
+        """
         if use_upper:
             tao_matkhau.characters += string.ascii_uppercase
         if use_lower:
@@ -28,7 +30,6 @@ use_special: A boolean variable indicating whether the password should contain s
         # Check if character set is long enough
         if len(tao_matkhau.characters) < 8:
             raise ValueError("Password must contain at least 8 characters.")
-
     def introduce_matkhau(tao_matkhau):
        # Provide guidance on creating a strong password
         print("Please choose a strong password.")
@@ -51,11 +52,9 @@ use_special: A boolean variable indicating whether the password should contain s
                 print("Similar strong password suggestion:", similar_matkhau)
             else:
                 break
-
     def design_matkhau(tao_matkhau):
         # Return the designed password
         return tao_matkhau.matkhau
-
     def implement_matkhau(tao_matkhau):
         # Return the implemented password
         return tao_matkhau.matkhau
@@ -67,8 +66,7 @@ use_special: A boolean variable indicating whether the password should contain s
     def deploy_matkhau(tao_matkhau):
         # Return the deployed password
         return tao_matkhau.matkhau
-
-if __name__ == "dovinh":
+if __name__ == "__main__":
     tao_mat_khau = TaoMatKhau()
     
     # Collect requirements for the password
